@@ -91,8 +91,7 @@ cargo install tplay
 # --
 # git config --global user.email "eng.pedrocosta@gmail.com"
 # git config --global user.name "Pedro Costa"
-# git add .
-# git commit -m "descrição do que mudou"
+# git commit -a -m "descrição do que mudou"
 # git push
 ###
 
