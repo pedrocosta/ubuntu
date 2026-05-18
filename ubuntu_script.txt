@@ -78,6 +78,8 @@ sudo snap install multipass
 sudo apt install curl cargo libssl-dev ffmpeg libavfilter-dev libavdevice-dev libavformat-dev libavcodec-dev libswscale-dev libasound2-dev yt-dlp libmpv-dev clang
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 cargo install tplay
+# nano .bashrc
+# export PATH = /home/pedrocosta/.cargo/bin:$PATH
 
 ###
 # private keys and git
