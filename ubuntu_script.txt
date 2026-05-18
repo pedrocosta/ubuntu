@@ -75,9 +75,8 @@ sudo snap install multipass
 # Use: tplay https://www.youtube.com/watch?v=dQw4w9WgXcQ  --char-map " ░▒▓█"
 ###
 
-sudo apt install curl
+sudo apt install curl cargo libssl-dev ffmpeg libavfilter-dev libavdevice-dev libavformat-dev libavcodec-dev libswscale-dev libasound2-dev yt-dlp libmpv-dev clang
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-sudo apt install libssl-dev ffmpeg libavfilter-dev libavdevice-dev libavformat-dev libavcodec-dev libswscale-dev libasound2-dev yt-dlp libmpv-dev clang
 cargo install tplay
 
 ###
