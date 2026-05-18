@@ -69,19 +69,6 @@ sudo apt install -y podman podman-compose
 sudo snap install multipass
 
 ###
-# install tplay
-###
-# Update: cargo install tplay --force
-# Use: tplay https://www.youtube.com/watch?v=dQw4w9WgXcQ  --char-map " ░▒▓█"
-###
-
-sudo apt install curl cargo libssl-dev ffmpeg libavfilter-dev libavdevice-dev libavformat-dev libavcodec-dev libswscale-dev libasound2-dev yt-dlp libmpv-dev clang
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-cargo install tplay
-# nano .bashrc
-# export PATH=/home/pedrocosta/.cargo/bin:$PATH
-
-###
 # private keys and git
 ###
 # Copiar id_ed25519.pub e id_ed25519 para ~/.ssh e depois:
