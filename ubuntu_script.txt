@@ -42,6 +42,7 @@ fortune | cowthink
 cat <<EOF >upgrade.sh
 sudo apt --update --autoremove full-upgrade -y
 flatpak upgrade -y
+sudo snap refresh
 sudo determinate-nixd upgrade
 nix profile upgrade --all
 EOF
