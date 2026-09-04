@@ -1,0 +1,6 @@
+# add user to sudoers
+  su -
+  usermod -aG sudo $USER
+  reboot
+
+  
